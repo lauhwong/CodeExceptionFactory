@@ -1,0 +1,9 @@
+<resources>
+    <!--define exceptions list-->
+    <array name="http">
+        <item>1000: 无法链接到服务器!</item>
+        <item>1001:今天天气不好，服务器罢工了!</item>
+        <item>1002:手机没吃饱，拒绝工作!</item>
+        <item>1003: 风太大，请求失败!</item>
+    </array>
+</resources>
