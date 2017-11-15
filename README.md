@@ -15,7 +15,7 @@ dependencies {
       implementation 'com.github.lauhwong:code-exception-utils:0.1-SNAPSHOT'
     }
 ```
-and then use it in your application just like this:
+你可以按照下面 的步骤使用该库文件。
 ```java
 //install first.
 CodeInstaller.newInstaller()
@@ -31,7 +31,7 @@ public void showException() {
     Log.d(getClass().getSimpleName(), localizedMessage);
 }
 ```
-each id will generate class with capture(id)+UpgradeManager,and then you can do with this manager
+每个code对应一个错误描述信息。在资源文件中定义为如下的结果：
 ```xml
  <!--define exceptions list-->
      <array name="http">
@@ -41,7 +41,6 @@ each id will generate class with capture(id)+UpgradeManager,and then you can do 
          <item>1003: 风太大，请求失败!</item>
      </array>
 ```
-more *details usage* can be explore in *app module*
 
 License
 -------
