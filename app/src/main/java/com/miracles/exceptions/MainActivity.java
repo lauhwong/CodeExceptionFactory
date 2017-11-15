@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    String[] mCodes = {"1001", "1002", "1003", "1004"};
+    String[] mCodes = {"1000", "1001", "1002", "1003"};
 
     public void showException(View view) {
         int index = new Random().nextInt(4);
