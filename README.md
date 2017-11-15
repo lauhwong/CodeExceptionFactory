@@ -1,6 +1,8 @@
 CodeExceptionFactory
 ====================
-
+遇到的异常信息太多，没办法统一处理显示为可视化的异常信息？
+多语言下可视化异常信息变得难以处理？
+试试用CodeExceptionFactory 统一异常处理，优化界面异常提示信息吧！
 Download
 --------------
 Use SNAPSHOT in mavenCentral
